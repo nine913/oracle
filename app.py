@@ -6,7 +6,8 @@ def main():
                        layout='wide',
                        page_icon='🔮')
     st.title('🔮 Oráculo')
-    st.markdown('### Um hub de insights financeiros, econômicos e climáticos em tempo real - Desenvolvido por [André](https://github.com/nine913)')
+    st.markdown('### Um hub de insights financeiros, econômicos e climáticos em tempo real')
+    st.markdown('Desenvolvido por [André](https://github.com/nine913)')
 
     menu = st.sidebar.selectbox(
         '🔍 Escolha o oráculo:',
